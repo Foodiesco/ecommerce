@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjualan Makanan Ringan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="boostrap.css">
+</head>
+<body>
+    <!-- Header dengan Logo -->
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo Makanan Ringan">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Konten Utama -->
+    <main>
+        <section id="produk" class="produk-section">
+            <h2>Produk Makanan Ringan</h2>
+            <div class="produk">
+                <div class="produk-item">
+                    <img src="img/basreng.jpeg" alt="Basreng">
+                    <h3>Basreng</h3>
+                    <p>basreng adalah camilan yang terbuat dari olahan bakso ikan yang diiris tipis kemudian digoreng dan disajikan dengan taburan bumbu pedas.</p>
+                    <button data-bs-toggle="modal" data-bs-target="#basrenmg">Beli Sekarang</button>
+                </div>
+                <div class="produk-item">
+                    <img src="img/keripik_usus_balado.jpg" alt="Usus Balado">
+                    <h3>Usus Crispy</h3>
+                    <p>usus crispy adalah cemilan yang terbuat dari usus ayam yang dipotong-potong, digoreng hingga renyah dan diolah deangan bumbu. usus crispy memiliki tekstur yang renyah dan gurih,serta bisa menjadi lauk makan praktis</p>
+                    <button data-bs-toggle="modal" data-bs-target="#ususbalado">Beli Sekarang</button>
+                </div>
+                <div class="produk-item">
+                    <img src="img/stik_bawang.jpg" alt="Stik Bawang">
+                    <h3>Stik Bawang</h3>
+                    <p>stik bawang adalah cemilan ringan yang berbentuk pipih atau bulat panjang yang terbuat dari tepung terigu,telur,lemak,air, dan bawang putih. stik bawang memiliki rasa gurih dan tekstur renyah.</p>
+                    <button data-bs-toggle="modal" data-bs-target="#stikbawang">Beli Sekarang</button>
+                </div>
+                <div class="produk-item">
+                    <img src="singkong.jpeg" alt="singkong">
+                    <h3>keripik singkong</h3>
+                    <p>Emping tela adalah camilan yang dibuat dari singkong (tela) yang telah diolah. Singkong direbus atau dikukus, kemudian ditumbuk hingga pipih dan tipis, lalu dijemur dan digoreng hingga renyah. Emping tela memiliki rasa gurih pedas manis dan tekstur renyah</p>
+                    <button data-bs-toggle="modal" data-bs-target="#singkongpedasmanis">Beli Sekarang</button>
+                </div>
+                <div class="produk-item">
+                    <img src="gayam.jpg" alt="Keripik Gayam">
+                    <h3>Keripik Gayam</h3>
+                    <p>Keripik gayam adalah camilan tradisional Indonesia yang terbuat dari biji pohon gayam, diolah dengan cara direbus, diiris tipis, lalu digoreng hingga renyah. Camilan ini memiliki rasa gurih.</p>
+                    <button data-bs-toggle="modal" data-bs-target="#gayam">Beli Sekarang</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer dengan Informasi Kontak -->
+    <footer id="kontak">
+        <div class="footer-content">
+            <p>Hubungi Kami: <br> Email: info@adikitchen.com | Telepon: +628979395178</p>
+            <p>&copy; 2024 Makanan Ringan. Semua hak cipta dilindungi.</p>
+        </div>
+    </footer>
+
+    <!-- Modal untuk Basreng -->
+    <div class="modal fade" id="basrenmg" tabindex="-1" aria-labelledby="basrengModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="basrengModalLabel">Basreng - Basreng</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Rasakan nikmatnya camilan Basreng yang gurih dengan cita rasa yang tak terlupakan.
+                </div>
+                <div class="modal-footer">
+                    <h5 class="me-auto">Rp9.000/100gr</h5>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <!-- Link WhatsApp untuk Basreng -->
+                    <a href="https://wa.me/+628979395178?text=Halo,%20saya%20ingin%20memesan%20Basreng%20Camilan%20Lezat." class="btn btn-primary" target="_blank">Beli Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal untuk Usus Balado -->
+    <div class="modal fade" id="ususbalado" tabindex="-1" aria-labelledby="ususBaladoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="ususBaladoModalLabel">Snack Usus Balado</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Nikmati kelezatan usus balado yang pedas dan renyah, cocok sebagai camilan sehari-hari.
+                </div>
+                <div class="modal-footer">
+                    <h5 class="me-auto">Rp5.000</h5>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <!-- Link WhatsApp untuk Usus Balado -->
+                    <a href="https://wa.me/+628979395178?text=Halo,%20saya%20ingin%20memesan%20Usus%20Balado%20Snack%20Renyah." class="btn btn-primary" target="_blank">Beli Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal untuk Stik Bawang -->
+    <div class="modal fade" id="stikbawang" tabindex="-1" aria-labelledby="stikBawangModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="stikBawangModalLabel">Stik Bawang </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    “Buat perut senang tanpa buat dompet sedih. Cemilan kami jagoannya!”
+                </div>
+                <div class="modal-footer">
+                    <h5 class="me-auto">Rp7.000</h5>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <!-- Link WhatsApp untuk Stik Bawang -->
+                    <a href="https://wa.me/+628979395178?text=Halo,%20saya%20ingin%20memesan%20Stik%20Bawang%20Pedas." class="btn btn-primary" target="_blank">Beli Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal untuk Keripik Singkong Pedas Manis -->
+    <div class="modal fade" id="singkongpedasmanis" tabindex="-1" aria-labelledby="singkongModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="singkongModalLabel">Keripik Singkong Pedas Manis</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Keripik singkong dengan kombinasi rasa pedas manis yang menggoda selera Anda.
+                </div>
+                <div class="modal-footer">
+                    <h5 class="me-auto">Rp6.000</h5>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <!-- Link WhatsApp untuk Keripik Singkong Pedas Manis -->
+                    <a href="https://wa.me/+628979395178?text=Halo,%20saya%20ingin%20memesan%20Keripik%20Singkong%20Pedas%20Manis." class="btn btn-primary" target="_blank">Beli Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal untuk Keripik Gayam -->
+    <div class="modal fade" id="gayam" tabindex="-1" aria-labelledby="gayamModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="gayamModalLabel">Keripik Gayam </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    “Hati-hati! Cemilan ini akan membuat Anda ketagihan dengan satu gigitan. Penasaran? Coba deh, pesan sekarang juga.”
+                </div>
+                <div class="modal-footer">
+                    <h5 class="me-auto">Rp6.000</h5>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <!-- Link WhatsApp untuk Keripik Gayam -->
+                    <a href="https://wa.me/+628979395178?text=Halo,%20saya%20ingin%20memesan%20Keripik%20Gayam%20Pedas." class="btn btn-primary" target="_blank">Beli Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="boostrap.js"></script>
+</body>
+</html>
